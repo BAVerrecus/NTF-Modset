@@ -1,0 +1,9 @@
+Vor allem als Test gedacht, aber ein bisschen Sinn darf trotzdem rein:
+
+1. vom Master-branch pullen.
+2. neuen Branch erstellen (aus den Dateien vom Master).
+3. Man arbeitet eigentlich immer nur in seinem eigenen Branch.
+4. Änderungen an der eigenen, Lokalen Kope (local branch) vornehmen.
+5. Änderungen per Commit + Push auf seinem eigenen Branch hochladen.
+6. per Pull Request eigene Änderungen in master branch mergen (müssen freigegeben werden).
+7. Beim nächsten Pull vom Master wird jeder auf "seinem" Branch die getätigte Änderungen bekommen.
