@@ -15,7 +15,7 @@ class CfgPatches
 		units[] = {"CSW_XM8_Box"};
 		weapons[] = {"CSW_XM8_base_F","CSW_XM8_dmar_black"};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_weapons_f","A3_weapons_f_exp","ace_common","BWA3_Common","BWA3_Eagle","BWA3_Weapons","BWA3_Units","BWA3_Puma","BWA3_Leopard2A6M","BWA3_Tiger","CSW_XM8","CSW_XM8_Ammo_Box","hlcweapons_core","hlcweapons_g3","hlcweapons_FHAWCovert","hlcweapons_m14","hlcweapons_m60e4","rhs_c_weapons","rhsusf_weapons","rhsusf_weapons2","rhsusf_weapons3","SMA_StandardAmmo","SMA_Weapons","r3f_armes_c","r3f_armes","r3f_acc","BWA3_Comp_ACE","bwa3_launchers","r3f_armes_c","rds_a2port_cman"};
+		requiredAddons[] = {"A3_weapons_f","A3_weapons_f_exp","ace_common","BWA3_Common","BWA3_Eagle","BWA3_Weapons","BWA3_Units","BWA3_Puma","BWA3_Leopard2A6M","BWA3_Tiger","CSW_XM8","CSW_XM8_Ammo_Box","hlcweapons_core","hlcweapons_g3","hlcweapons_m14","hlcweapons_m60e4","rhs_c_weapons","rhsusf_weapons","rhsusf_weapons2","rhsusf_weapons3","SMA_StandardAmmo","SMA_Weapons","r3f_armes_c","r3f_armes","r3f_acc","BWA3_Comp_ACE","bwa3_launchers","r3f_armes_c","rds_a2port_cman"};
 		versionAr[] = {1,0,0};
 		author = "B.A.Verrecus";
 	};
@@ -172,6 +172,23 @@ class CfgVehicles
 			};
 		};
 	};
+	
+	class Plane: Air
+	{
+	};
+	
+	class Plane_Base_F: Plane
+	{
+	};
+	
+	class Plane_Fighter_01_Base_F: Plane_Base_F
+	{
+		LESH_canBeTowed = 1;
+		LESH_towFromFront = 1;
+		LESH_AxisOffsetTarget[] = {0,10,-1.4};
+		LESH_WheelOffset[] = {0,1.6};
+	};
+	
 	class ReammoBox_F;
 	class BWA3_Box_Base: ReammoBox_F
 	{
@@ -912,12 +929,12 @@ class CfgWeapons
 	class SMA_556_RIFLEBASE: SMA_AssaultBase
 	{
 		scope = 1;
-		magazines[] = {"rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk262_Stanag","rhs_mag_30Rnd_556x45_M200_Stanag"};
+		magazines[] += {"rhs_mag_30Rnd_556x45_M855A1_Stanag","rhs_mag_30Rnd_556x45_M855A1_Stanag_No_Tracer","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Green","rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Yellow","rhs_mag_30Rnd_556x45_Mk318_Stanag","rhs_mag_30Rnd_556x45_Mk262_Stanag","rhs_mag_30Rnd_556x45_M200_Stanag"};
 	};
 	class SMA_762_RIFLEBASE: SMA_AssaultBase
 	{
 		scope = 1;
-		magazines[] = {"SMA_20Rnd_762x51mm_M80A1_EPR","SMA_20Rnd_762x51mm_M80A1_EPR_Tracer","SMA_20Rnd_762x51mm_M80A1_EPR_IR","SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range","SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range_Tracer","SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range_IR","SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic","SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic_Tracer","SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic_IR","20Rnd_762x51_Mag","rhsusf_20Rnd_762x51_m118_special_Mag","rhsusf_20Rnd_762x51_m993_Mag"};
+		magazines[] += {"SMA_20Rnd_762x51mm_M80A1_EPR","SMA_20Rnd_762x51mm_M80A1_EPR_Tracer","SMA_20Rnd_762x51mm_M80A1_EPR_IR","SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range","SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range_Tracer","SMA_20Rnd_762x51mm_Mk316_Mod_0_Special_Long_Range_IR","SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic","SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic_Tracer","SMA_20Rnd_762x51mm_Lapua_FMJ_Subsonic_IR","20Rnd_762x51_Mag","rhsusf_20Rnd_762x51_m118_special_Mag","rhsusf_20Rnd_762x51_m993_Mag"};
 	};
 	class R3F_Famas_F1: Rifle_Base_F
 	{
