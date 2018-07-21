@@ -1,5 +1,0 @@
-///<'FIR_F16_Cfg.pbo' properties via Mikero's dos tools, dll version 6.44>///
-prefix=FIR_F16_Cfg
-//Pbo Type is: Arma Addon
-//Sha: 'A13E5584E935FD384390D6178275871AF4FF4C79'
-//////</properties>//////
