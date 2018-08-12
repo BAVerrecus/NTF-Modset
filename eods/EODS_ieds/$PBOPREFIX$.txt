@@ -1,0 +1,6 @@
+///'eods_ieds.pbo' from Mikero's dos tools, dll version 5.45///
+prefix=EODS_ieds
+Mikero=DePbo.dll
+Pbo Type is: Arma Addon
+Sha: '81F94342CBDEA00E39897D36EA61C913B9889B2B'
+//////</HEADER>//////

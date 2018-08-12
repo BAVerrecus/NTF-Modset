@@ -1,0 +1,91 @@
+ambient[]={0.63921571,0.67058825,0.49803922,1};
+diffuse[]={0.63921571,0.67058825,0.49803922,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0.43529412,0.43529412,0.43529412,1};
+specular[]={0.21960784,0.26274511,0.19607843,1};
+specularPower=100;
+PixelShaderID="Super";
+VertexShaderID="Super";
+class Stage0
+{
+	texture="EODS_APOBS\Textures\Metal_Clip_co.paa";
+	uvSource="tex";
+};
+class Stage1
+{
+	texture="EODS_APOBS\Textures\Metal_Clip_nohq.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+	Filter="Anizotropic";
+};
+class Stage2
+{
+	texture="A3\weapons_f\data\detailmaps\metal_rough_dt.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={8,0,0};
+		up[]={0,8,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+	Filter="Anizotropic";
+};
+class Stage3
+{
+	texture="#(argb,8,8,3)color(0,0,0,0,MC)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+	Filter="Anizotropic";
+};
+class Stage4
+{
+	texture="EODS_APOBS\Textures\Metal_Clip_smdi.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+	Filter="Anizotropic";
+};
+class Stage5
+{
+	texture="EODS_APOBS\Textures\Metal_Clip_dt.paa";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+	Filter="Anizotropic";
+};
+class Stage6
+{
+	texture="#(ai,16,32,2)fresnel(1.33,0.01)";
+	uvSource="tex";
+	class uvTransform
+	{
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
+	};
+	Filter="Anizotropic";
+};

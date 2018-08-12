@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Arma3">
+	<Package name="EOD_SUIT">
+		<Container name="Localisation">
+
+			<Key ID="STR_EODS_EOD_units">
+				<English>[EODS] EOD units</English>
+				<Spanish>[EODS] EOD units</Spanish>
+				<French>[EODS] Unités EOD</French>
+			</Key>
+
+			<Key ID="STR_EOD_engineer">
+				<English>EOD engineer</English>
+				<Spanish>EOD engineer</Spanish>
+				<French>Ingénieur EOD</French>
+			</Key>
+
+			<Key ID="STR_EOD9_HELMET">
+				<English>EOD Helmet</English>
+				<Spanish>EOD Helmet</Spanish>
+				<French>Casque EOD</French>
+			</Key>
+
+			<Key ID="STR_EOD_Uniform">
+				<English>EOD Suit</English>
+				<Spanish>EOD Suit</Spanish>
+				<French>Combinaison EOD</French>
+			</Key>
+
+			<Key ID="STR_Vest_EOD">
+				<English>EOD Vest</English>
+				<Spanish>EOD Vest</Spanish>
+				<French>Veste EOD</French>
+			</Key>
+			
+			<Key ID="STR_Rebreather">
+				<English>Rebreather</English>
+				<Spanish>Rebreather</Spanish>
+				<French>Respirateur</French>
+			</Key>
+			
+			<Key ID="STR_Sound_System">
+				<English>Sound System</English>
+				<Spanish>Sound System</Spanish>
+				<French>Système sonore</French>
+			</Key>
+			
+			<Key ID="STR_Rebreather_External_System">
+				<English>Rebreather External System</English>
+				<Spanish>Rebreather External System</Spanish>
+				<French>Système de respiration externe</French>
+			</Key>
+			
+			<Key ID="STR_Lights">
+				<English>Lights</English>
+				<Spanish>Lights</Spanish>
+				<French>Lumières</French>
+			</Key>
+			
+			<Key ID="STR_Heat_Regulation_System">
+				<English>Heat Regulation System</English>
+				<Spanish>Heat Regulation System</Spanish>
+				<French>Système de ventilation</French>
+			</Key>
+			
+			<Key ID="STR_Power">
+				<English>Power</English>
+				<Spanish>Power</Spanish>
+				<French>Alimentation</French>
+			</Key>
+
+			<Key ID="STR_Show_Close_Interface">
+				<English>Show/Close Interface</English>
+				<Spanish>Show/Close Interface</Spanish>
+				<French>Ouvrir/Fermer l'interface</French>
+			</Key>				
+			
+			<Key ID="STR_EODS_Suite_Wrong_Version_CBA">
+				<English>EODS Suite: Your version of CBA is too old for this version of EODS. Please upgrade CBA.</English>
+				<Spanish>EODS Suite: Your version of CBA is too old for this version of EODS. Please upgrade CBA.</Spanish>
+				<French>EODS Suite : Votre version de CBA est obsolète pour cette version de EODS. Veuillez mettre à jour CBA.</French>
+			</Key>			
+			
+		</Container>
+	</Package>
+</Project>
