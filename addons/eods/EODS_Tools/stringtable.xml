@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Arma3">
+<Package name="EODS_Tools">
+<Container name="STR_DN">
+
+      <Key ID="STR_EODS_Pliers1">
+        <English>Pliers (1)</English>
+        <Spanish>Pinza (1)</Spanish>
+		<French>Pince (1)</French>
+      </Key>
+	  
+      <Key ID="STR_EODS_Pliers1_desc">
+        <English>Needle Nose Plier</English>
+        <Spanish>Tenazas</Spanish>
+		<French>Pince à bec plat</French>
+      </Key>
+
+      <Key ID="STR_EODS_Screwdriver1">
+        <English>Screwdriver (1)</English>
+        <Spanish>Destornillador (1)</Spanish>
+		<French>Tournevis (1)</French>
+      </Key>
+	  
+      <Key ID="STR_EODS_Screwdriver1_desc">
+        <English>Phillips screwdriver</English>
+        <Spanish>Destornillador Phillips</Spanish>
+		<French>Tournevis cruciforme</French>
+      </Key>
+
+      <Key ID="STR_EODS_Multimeter">
+        <English>Multimeter</English>
+        <Spanish>Multimetro</Spanish>
+		<French>Multimetre</French>
+      </Key>
+	  
+      <Key ID="STR_EODS_Multimeter_desc">
+        <English>Basic Multimeter</English>
+        <Spanish>Multimetro Básico</Spanish>
+		<French>Multimetre basique</French>
+      </Key>
+	  
+      <Key ID="STR_EODS_MultiTool">
+        <English>MultiTool</English>
+        <Spanish>Multiinstrumento</Spanish>
+		<French>Outil Multifonction</French>
+      </Key>
+
+      <Key ID="STR_EODS_MultiTool_desc">
+        <English>Multi-Tool "300 EOD"</English>
+        <Spanish>Multiinstrumento "300 EOD"</Spanish>
+		<French>Outil Multifonction "300 EOD"</French>
+      </Key>
+
+      <Key ID="STR_EODS_TapeRoll">
+        <English>Tape Roll</English>
+        <Spanish>Rollo de Cinta</Spanish>
+		<French>Rouleau de Scotch</French>
+      </Key>
+	  
+      <Key ID="STR_EODS_TapeRoll_desc">
+        <English>Tape Roll</English>
+        <Spanish>Rollo de Cinta</Spanish>
+		<French>Rouleau de Scotch</French>
+      </Key>
+	  
+      <Key ID="STR_EODS_Medford_Knife">
+        <English>Medford Knife</English>
+        <Spanish>Medford Knife</Spanish>
+		<French>Medford Knife</French>
+      </Key>
+
+      <Key ID="STR_EODS_Medford_Knife_desc">
+        <English>Medford Knife EOD1</English>
+        <Spanish>Medford Knife EOD1</Spanish>
+		<French>Medford Knife EOD1</French>
+      </Key>
+
+</Container></Package></Project>

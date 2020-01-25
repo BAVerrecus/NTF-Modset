@@ -1,0 +1,14 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: Produced from mikero's Dos Tools Dll version 5.45
+//'now' is Wed Apr 29 09:56:08 2015 : 'file' last modified on Wed Apr 29 09:56:08 2015
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+//Class eods_ieds : data\Metal.rvmat{
+specular[] = {10,10,10,1};
+specularPower = 100;
+PixelShaderID = "Normal";
+VertexShaderID = "Basic";
+//};

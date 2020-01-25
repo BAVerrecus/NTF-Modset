@@ -1,0 +1,3 @@
+//DeleteCharge.sqf
+
+ deletevehicle Charge;

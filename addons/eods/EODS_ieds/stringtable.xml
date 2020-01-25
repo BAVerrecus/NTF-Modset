@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Arma3">
+<Package name="EODS_ieds">
+<Container name="STR_DN">
+
+      <Key ID="STR_EODS_Fake_IED_01">
+        <English>Fake IED 01</English>
+        <Spanish>IED Falso 01</Spanish>
+		<French>Faux IED 01</French>
+      </Key>
+
+      <Key ID="STR_EODS_Fake_IED_02">
+        <English>Fake IED 02</English>
+        <Spanish>IED Falso 02</Spanish>
+		<French>Faux IED 02</French>
+      </Key>
+
+      <Key ID="STR_EODS_Fake_IED_03">
+        <English>Fake IED 03</English>
+        <Spanish>IED Falso 03</Spanish>
+		<French>Faux IED 03</French>
+      </Key>
+
+      <Key ID="STR_EODS_Fake_IED_04">
+        <English>Fake IED 04</English>
+        <Spanish>IED Falso 04</Spanish>
+		<French>Faux IED 04</French>
+      </Key>
+
+      <Key ID="STR_EODS_Fake_IED_05">
+        <English>Fake IED 05</English>
+        <Spanish>IED Falso 05</Spanish>
+		<French>Faux IED 05</French>
+      </Key>
+
+      <Key ID="STR_EODS_Fake_IED_06">
+        <English>Fake IED 06</English>
+        <Spanish>IED Falso 06</Spanish>
+		<French>Faux IED 06</French>
+      </Key>
+
+      <Key ID="STR_EODS_Fake_IED_07">
+        <English>Fake IED 07</English>
+        <Spanish>IED Falso 07</Spanish>
+		<French>Faux IED 07</French>
+      </Key>
+
+      <Key ID="STR_EODS_Fake_IED_08">
+        <English>Fake IED 08</English>
+        <Spanish>IED Falso 08</Spanish>
+		<French>Faux IED 08</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Recoger">
+        <English>Pick Up</English>
+        <Spanish>Recoger</Spanish>
+		<French>Prendre</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Inspeccionar">
+        <English>Survey</English>
+        <Spanish>Inspeccionar</Spanish>
+		<French>Inspecter</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Interactuar">
+        <English>Interact</English>
+        <Spanish>Interactuar</Spanish>
+		<French>Interagir</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Soltar">
+        <English>Drop</English>
+        <Spanish>Soltar</Spanish>
+		<French>Lacher</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_usar_celular">
+        <English>Use Cellphone</English>
+        <Spanish>Usar Celular</Spanish>
+		<French>Utiliser Telephone Portable</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_activar_THOR_III">
+        <English>Activate THOR III</English>
+        <Spanish>Activar TOHR III</Spanish>
+		<French>Activer THOR III</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_desactivar_THOR_III">
+        <English>Deactivate THOR III</English>
+        <Spanish>Desactivar TOHR III</Spanish>
+		<French>Désactiver THOR III</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Cambiar_Antena_THOR_III">
+        <English>Change Antenna for</English>
+        <Spanish>Cambiar la Antena por</Spanish>
+		<French>Changement d'antenne pour</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Remover_Antena_THOR_III">
+        <English>Remove Antenna</English>
+        <Spanish>Remover la Antena</Spanish>
+		<French>Retirer l'antenne</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Esconder">
+        <English>Hide it in this object</English>
+        <Spanish>Esconder en este objeto</Spanish>
+		<French>Cacher dans cet objet</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Mover">
+        <English>Move</English>
+        <Spanish>Mover</Spanish>
+		<French>Deplacer</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Encadenar">
+        <English>Daisy Chain IED</English>
+        <Spanish>Encadenar</Spanish>
+		<French>Relier IED</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Dejar_Encadenar">
+        <English>Stop Chaining IED</English>
+        <Spanish>Dejar de Encadenar</Spanish>
+		<French>Arreter de Relier IED</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Encadenar_a_Este">
+        <English>Chaining This IED</English>
+        <Spanish>Encadenar a este IED</Spanish>
+		<French>Relier cet IED</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Armar">
+        <English>Arm</English>
+        <Spanish>Armar</Spanish>
+		<French>Armer</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Enterrar">
+        <English>Bury</English>
+        <Spanish>Enterrar</Spanish>
+		<French>Enterrer</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Desenterrar">
+        <English>Dig Up</English>
+        <Spanish>Desenterrar</Spanish>
+		<French>Deterrer</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Detonar">
+        <English>Detonate</English>
+        <Spanish>Detonar</Spanish>
+		<French>Mise a feu</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Colocar">
+        <English>Place</English>
+        <Spanish>Colocar</Spanish>
+		<French>Placer</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_ied01">
+        <English>120mm RCIED</English>
+        <Spanish>RCIED de 120mm</Spanish>
+		<French>120mm RCIED</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_ied02">
+        <English>152mm RCIED</English>
+        <Spanish>RCIED de 152mm</Spanish>
+		<French>152mm RCIED</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_ied03">
+        <English>130mm Double RCIED</English>
+        <Spanish>RCIED Doble de 130mm </Spanish>
+		<French>130mm Double RCIED</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_ied04">
+        <English>RCIED Pipe Bomb</English>
+        <Spanish>Bomba de Tubo RCIED</Spanish>
+		<French>RCIED Pipe Bomb</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_ied05">
+        <English>122mm RCIED</English>
+        <Spanish>RCIED de 122mm</Spanish>
+		<French>122mm RCIED</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_ied06">
+        <English>RCIED Propane Tank</English>
+        <Spanish>Tanque de Propano RCIED</Spanish>
+		<French>Bouteille de Gaz</French>		
+      </Key>
+
+      <Key ID="STR_EODS_ieds_ied07">
+        <English>Pipe Shaped Charge</English>
+        <Spanish>Bomba de Tubo Hueca RCIED</Spanish>
+		<French>Pipe Shaped Charge</French>	
+      </Key>
+
+	  <Key ID="STR_EODS_ieds_ied01_armed">
+        <English>120mm RCIED armed</English>
+        <Spanish>RCIED de 120mm armed</Spanish>
+		<French>120mm RCIED armed</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_ied02_armed">
+        <English>152mm RCIED armed</English>
+        <Spanish>RCIED de 152mm armed</Spanish>
+		<French>152mm RCIED armed</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_ied03_armed">
+        <English>130mm Double RCIED armed</English>
+        <Spanish>RCIED Doble de 130mm armed</Spanish>
+		<French>130mm Double RCIED armed</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_ied04_armed">
+        <English>RCIED Pipe Bomb armed</English>
+        <Spanish>Bomba de Tubo RCIED armed</Spanish>
+		<French>RCIED Pipe Bomb armed</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_ied05_armed">
+        <English>122mm RCIED armed</English>
+        <Spanish>RCIED de 122mm armed</Spanish>
+		<French>122mm RCIED armed</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_ied06_armed">
+        <English>RCIED Propane Tank armed</English>
+        <Spanish>Tanque de Propano RCIED armed</Spanish>
+		<French>Bouteille de Gaz armed</French>		
+      </Key>
+
+      <Key ID="STR_EODS_ieds_ied07_armed">
+        <English>Pipe Shaped Charge armed</English>
+        <Spanish>Bomba de Tubo Hueca RCIED armed</Spanish>
+		<French>Pipe Shaped Charge armed</French>	
+      </Key>
+	  
+      <Key ID="STR_EODS_ieds_modulos_CA">
+        <English>[EODS] IEDs Cellphone Activation [IA RCIED]</English>
+        <Spanish>[EODS] Activacion de IEDs por celular [IA RCIED]</Spanish>
+		<French>[EODS] IEDs Activation par Telephone [IA RCIED]</French>			
+      </Key>
+
+      <Key ID="STR_EODS_ieds_modulos_HIDDEN_IN_OBJECT">
+        <English>[EODS] IED hidden in object</English>
+        <Spanish>[EODS] IEDs escondidos en objeto</Spanish>
+		<French>[EODS] IED caché dans des objet</French>		
+      </Key>
+
+      <Key ID="STR_EODS_ieds_modulos_HIDDEN">
+        <English>[EODS] Bury IEDs</English>
+        <Spanish>[EODS] IEDs Ocultos o Enterrados</Spanish>
+		<French>[EODS] Cacher/Enterrer IEDs</French>		
+      </Key>
+
+      <Key ID="STR_EODS_ieds_celuar">
+        <English>Cellphone</English>
+        <Spanish>Celular</Spanish>
+		<French>Telephone portable</French>	
+      </Key>
+
+      <Key ID="STR_EODS_ieds_No_Number_Celuar">
+        <English>No Numbers</English>
+        <Spanish>Sin numeros</Spanish>
+		<French>Pas de numeros</French>	
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Numbero_Ya_Existe">
+        <English>Error...</English>
+        <Spanish>Error...</Spanish>
+		<French>Erreur</French>	
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Numbero_Guardado">
+        <English>Saved...</English>
+        <Spanish>Guardado...</Spanish>
+		<French>Sauvegarde</French>	
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Celular_Volver">
+        <English>Back</English>
+        <Spanish>Volver</Spanish>
+		<French>Retour</French>	
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Celular_Borrar">
+        <English>Delete</English>
+        <Spanish>Borrar</Spanish>
+		<French>Supprimer</French>	
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Celular_Guardar">
+        <English>Save</English>
+        <Spanish>Guardar</Spanish>
+		<French>Sauvegarder</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Celular_Agenda">
+        <English>Numbers</English>
+        <Spanish>Agenda</Spanish>
+		<French>Numeros</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Celular_Numero_Borrado">
+        <English>Deleted...</English>
+        <Spanish>Borrado...</Spanish>
+		<French>Supprime</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Generico">
+        <English>[EODS] Hint</English>
+        <Spanish>[EODS] Aviso</Spanish>
+		<French>[EODS] Note</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Display_Accion_en_curso">
+        <English>[EODS] Performing Action...</English>
+        <Spanish>[EODS] Accion en Curso...</Spanish>
+		<French>[EODS] Action en cours...</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Display_Accion_Interrumpida">
+        <English>[EODS] Interrupted Action...</English>
+        <Spanish>[EODS] Accion Interrumpida...</Spanish>
+		<French>[EODS] Action interrompue...</French>
+      </Key>
+
+      <Key ID="STR_EODS_Hint_Display_Accion_Interrumpida_texto">
+        <English>Due your movement the action has been cancelled.</English>
+        <Spanish>Debido a que se ha movido la accion se ha cancelado, vuelva a intentarlo.</Spanish>
+		<French>Action annulée car vous bougez trop</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Display_Accion_Completa">
+        <English>[EODS] Action Completed...</English>
+        <Spanish>[EODS] Accion Completa...</Spanish>
+		<French>[EODS] Action terminee...</French>
+      </Key>
+
+      <Key ID="STR_EODS_Hint_Display_Accion_Completa_Desac_Fuente_IED">
+        <English>Power supply off.</English>
+        <Spanish>Se ha desactivado exitosamente la fuente de poder.</Spanish>
+		<French>Couper l'Alimentation Electrique</French>
+      </Key>
+
+      <Key ID="STR_EODS_Hint_Display_Accion_Completa_Desac_Detonador">
+        <English>The detonator has been deactivated.</English>
+        <Spanish>El Detonador ha sido desactivado</Spanish>
+		<French>Le Detonateur a ete Active</French>
+      </Key>
+
+      <Key ID="STR_EODS_Hint_Display_Accion_Completa_Desencadenar_IED">
+        <English>This IED has been successfully disconnected from the daisy chain.</English>
+        <Spanish>Se ha cortado correctamente el cable que unia a este IED con la cadena de explosivos.</Spanish>
+		<French>Cet IED a ete deconnete de la chaine avec succes.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Hint_Display_Accion_Completa_Limpiar_Ied_texto">
+        <English>IED circuits have been successfully cleaned.</English>
+        <Spanish>Los circuitos y empalmes del IED han sido limpiados con exito.</Spanish>
+		<French>Les Circuits de l'IED on ete nettoye.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Hint_Display_Accion_Completa_Encadenar_01">
+        <English>The detonator for this IED has been modified. The IED is ready to be chained, approach another IED and complete the process.</English>
+        <Spanish>El detonador de este IED ha sido modificado. El IED esta listo para ser encadenado, acerquese a otro IED y termine el proceso.</Spanish>
+		<French>Le detonateur pour cet IED a ete modifie.L'IED est pret a etre relie, aprochez un autre IED et finissez le processus.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Hint_Display_Accion_Completa_Encadenar_02">
+        <English>This IED has been chained and is ready to explode in a chain sequence. It can still be chained to others IED or you could proceed with the detonation.</English>
+        <Spanish>Este IED ha sido encadenado y esta listo para explotar en cadena. Puede seguir encadenado otros IED o proceder con la detonacion.</Spanish>
+		<French>Cet IED a ete relie et est pret pour la detonation en chaine. Il peut toujours etre relie a d'autre IED, ou vous pouvez proceder a la detonation.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Hint_Display_Accion_Completa_desactivar_completamente">
+        <English>IED successfully deactivated</English>
+        <Spanish>IED desactivado exitosamente</Spanish>
+		<French>IED desactive avec succes</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Celular_Numero_Display">
+        <English>RCIED Mobile Number: </English>
+        <Spanish>Numero Celular del RCIED: </Spanish>
+		<French>Numero du RCIED:</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda">
+        <English>[EODS] Help</English>
+        <Spanish>[EODS] Ayuda</Spanish>
+		<French>[EODS] Aide</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda_Armar">
+        <English>This will arm the IED and let it ready to detonate.</English>
+        <Spanish>Esto armara el IED y lo dejara listo para explotar.</Spanish>
+		<French>Cela arme l'IED et le rend pret pour la mise a feu.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda_Esconder">
+        <English>This will hide the IED inside the object that is right next to it.</English>
+        <Spanish>Esto ocultar el IED dentro del objeto que est justo al lado.</Spanish>
+		<French>Cela va cacher l'IED dans l'objet le plus proche. </French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda_Mover">
+        <English>This will make that you can move the ied to another position.</English>
+        <Spanish>Esto permite que el IED sea movido a otro lugar.</Spanish>
+		<French>Cela vous donne la possibilitee de deplacer l'IED.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda_Recoger">
+        <English>This will introduce the IED into your inventory.</English>
+        <Spanish>Esto introducir el IED en tu inventario.</Spanish>
+		<French>Cela va ajouter L'IED dans votre inventaire.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda_Encadenar">
+        <English>This will adapt the IED for be chained with others explosives. This also initiate the Daisy Chain process.</English>
+        <Spanish>Esto adaptara el IED para ser encandenado a otros explosivos. Esto tambien iniciara el proceso de encandenado.</Spanish>
+		<French>Cela rend l'IED reliable a d'autres explosifs. Cela va aussi initialiser le processus de chaine d'IED.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda_Inspeccionar">
+        <English>This will perform an inspection of the IED.</English>
+        <Spanish>Se realizara una inspeccion del IED.</Spanish>
+		<French>Cela effectue une inspection de l'IED.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda_Desencadenar">
+        <English>This will unchain the IED.</English>
+        <Spanish>Esto desencadenara el IED.</Spanish>
+		<French>Cela va retirer cet IED de la chaine.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda_Limpiar">
+        <English>This will clean the circuits of the IED.</English>
+        <Spanish>Esto limpiara los circuitos del IED.</Spanish>
+		<French>Cela va nettoyer les circuits de l'IED.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda_Detonador">
+        <English>This will disarm the detonator. There's a chance of explosion. Beware.</English>
+        <Spanish>Esto desarmara el detonaro. Hay riesgo de explosion. Este atento.</Spanish>
+		<French>Cela va desarmer le detonateur. Attention il y'a une chance d'explosion.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda_Fuente">
+        <English>This will disarm the power supply. There's a chance of explosion. Beware.</English>
+        <Spanish>Esto desarmara la fuente de poder. Hay riesgo de explosion. Este atento.</Spanish>
+		<French>Cela va desarmer l'alimentation electrique. Attention il y'a une chance d'explosion.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda_Comprobar">
+        <English>This will check the IED estatus.</English>
+        <Spanish>Esto comprobara el estado del IED.</Spanish>
+		<French>Cela va surveiller l'etat de l'IED.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda_Enterrar">
+        <English>This will bury the IED</English>
+        <Spanish>Esto enterrara el IED.</Spanish>
+		<French>Cela va enterrer l'IED.</French>
+      </Key>
+
+      <Key ID="STR_EODS_Titulo_Hint_Ayuda_DesactivarManualmente">
+        <English>This will open the manual deactivation menu.</English>
+        <Spanish>Esto abrira el menu de desactivacion manual.</Spanish>
+		<French>Cela va ouvrir le menu de desactivation manuel.</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_modulos_ARMAR">
+        <English>[EODS] Arm IEDs</English>
+        <Spanish>[EODS] Armar IEDs</Spanish>
+		<French>[EODS] Armer les IEDs.</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_modulos_CADENA">
+        <English>[EODS] CHAIN IEDs</English>
+        <Spanish>[EODS] IEDs en Cadena</Spanish>
+		<French>[EODS] Chaine d'IEDs.</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_modulos_CADENA_IED_PRINCIPAL">
+        <English>Main IED of the Chain</English>
+        <Spanish>IED Principal de la Cadena</Spanish>
+		<French>Principale IED de la chaine.</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_modulos_CADENA_IED_PRINCIPAL_DESCRIP">
+        <English>Editor Name Value of the main IED of the chain. This IED should be the only synced to detonate</English>
+        <Spanish>Nombre en el Editor del IED principal de la cadena. Este IED debe ser el unico sincronizado para detonar.</Spanish>
+		<French>Nom de l'IED principale de la chaine dans l'editeur. Cet IED seulement doit etre synchronise pour la detonation.</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_modulos_CADENA_IED_2do">
+        <English>Second IED of the Chain</English>
+        <Spanish>Segundo IED de la Cadena</Spanish>
+		<French>Second IED dans la Chaine</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_modulos_CADENA_IED_2do_DESCRIP">
+        <English>Editor Name Value of the second IED of the chain.</English>
+        <Spanish>Nombre en el Editor del segundo IED de la cadena.</Spanish>
+		<French>Nom dans l'editeur du second IED de la chaine.</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_modulos_CADENA_IED_3ro">
+        <English>Third IED of the Chain</English>
+        <Spanish>Tercer IED de la Cadena</Spanish>
+		<French>Troisieme IED de la Chaine.</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_modulos_CADENA_IED_3ro_DESCRIP">
+        <English>Editor Name Value of the third IED of the chain.</English>
+        <Spanish>Nombre en el Editor del tercer IED de la cadena.</Spanish>
+		<French>Nom dans l'editeur du Troisieme IED de la chaine.</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_modulos_CADENA_IED_4to">
+        <English>Fourth IED of the Chain</English>
+        <Spanish>Cuarto IED de la Cadena</Spanish>
+		<French>Quatrieme IED de la Chaine.</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_modulos_CADENA_IED_4to_DESCRIP">
+        <English>Editor Name Value of the fourth IED of the chain.</English>
+        <Spanish>Nombre en el Editor del cuarto IED de la cadena.</Spanish>
+		<French>Nom dans l'editeur du Quatrieme IED de la chaine.</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_inspec_clase">
+        <English>IED Type:</English>
+        <Spanish>Tipo de IED:</Spanish>
+		<French>Type d'IED:</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_inspec_clase_RCIED">
+        <English>RCIED</English>
+        <Spanish>RCIED</Spanish>
+		<French>RCIED</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_inspec_CExplo">
+        <English>Explosive Charge:</English>
+        <Spanish>Carga Explosiva:</Spanish>
+		<French>Charge Explosive:</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_inspec_Remark">
+        <English>Remarks:</English>
+        <Spanish>Observaciones:</Spanish>
+		<French>Observations:</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_inspec_Remark_encadenado">
+        <English>It seems to be a wire that comes from the IED and goes to another place.</English>
+        <Spanish>Parece haber un cable que sale del IED hacia otro lugar.</Spanish>
+		<French>Il semble qu'il y'ai un cable qui sorte de l'IED et se dirige autre part.</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_inspec_Remark_desenterradoReciente">
+        <English>There seems to be dust and dirt on the circuits of the IED.</English>
+        <Spanish>Hay polvo y suciedad sobre los empalmes de los circuitos del IED.</Spanish>
+		<French>Il semble qu'il y'ai de la poussiere et de la terre sur les circuits de l'IED.</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_inspec_Remark_ninguna">
+        <English>None.</English>
+        <Spanish>Ninguna</Spanish>
+		<French>Rien.</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_titulo_struct">
+        <English>IED Information</English>
+        <Spanish>Informacion del IED</Spanish>
+		<French>Informations sur l'IED</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_Desactivar">
+        <English>Manual Defuse</English>
+        <Spanish>Desactivar Manualmente</Spanish>
+		<French>Desamorçage manuel</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_limpiar_polvo_suciedad">
+        <English>Clean IED</English>
+        <Spanish>Limpiar IED</Spanish>
+		<French>Nettoyer l'IED</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_desencadenar">
+        <English>Unchain</English>
+        <Spanish>Desencadenar</Spanish>
+		<French>Sortir de la Chaine</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_manipular_detonador">
+        <English>Disarm Detonator</English>
+        <Spanish>Desarmar Detonador</Spanish>
+		<French>Desamorcer le detonateur</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_manipular_Fuente_Poder">
+        <English>Disarm Power Supply</English>
+        <Spanish>Desarmar Fuente de Poder</Spanish>
+		<French>Desamorcer l'alimentation electrique</French>
+      </Key>
+
+      <Key ID="STR_EODS_ieds_comprobar_desactivado">
+        <English>Check Deactivation</English>
+        <Spanish>Comprobar Desactivacion</Spanish>
+		<French>Verifier le desamorçage</French>
+      </Key>
+
+      <Key ID="STR_EODS_TALON_CARGAR_EN_VEHICULO">
+        <English>Load Talon in vehicle</English>
+        <Spanish>Cargar Talon en el vehiculo</Spanish>
+		<French>Chargez Talon dans le véhicule</French>
+      </Key>
+
+      <Key ID="STR_EODS_TALON_DESCARGAR_VEHICULO">
+        <English>Unload Talon of vehicle</English>
+        <Spanish>Descargar Talon en el vehiculo</Spanish>
+		<French>Décharger Talon de véhicule</French>
+      </Key>
+
+      <Key ID="STR_EODS_TALON_SOLTAR_CARGA">
+        <English>Drop the explosive charge</English>
+        <Spanish>Soltar la carga explosiva</Spanish>
+		<French>Déposer la charge explosive</French>
+      </Key>
+
+      <Key ID="STR_EODS_TALON_DETONAR_CARGA">
+        <English>Detonate explosive charge</English>
+        <Spanish>Detonar la carga explosiva</Spanish>
+		<French>Exploser la charge explosive</French>
+      </Key>
+
+      <Key ID="STR_EODS_TALON_AGARRAR_OBJETO">
+        <English>Take object with the Pincers</English>
+        <Spanish>Tomar Objeto con las Pinzas</Spanish>
+		<French>Prenez objet avec les pinces</French>
+      </Key>
+
+      <Key ID="STR_EODS_TALON_SOLTAR_OBJETO">
+        <English>Drop Object</English>
+        <Spanish>Soltar Objeto</Spanish>
+		<French>Baisse Objet</French>
+      </Key>
+
+      <Key ID="STR_EODS_TALON_OBJETO_MUY_GRANDE">
+        <English>The Object is too big for the Talon</English>
+        <Spanish>El objeto es demasiado grande para el Talon</Spanish>
+		<French>L'objet est trop grand pour le Talon</French>
+      </Key>
+
+      <Key ID="STR_EODS_TALON_KEY_CONFIG_INCLINE_FORW_ARM">
+        <English>Talon: Arm Forward Inclination</English>
+        <Spanish>Talon: Inclinar Brazo Adelante</Spanish>
+		<French>Talon: Bras avant Inclinaison</French>
+      </Key>
+
+      <Key ID="STR_EODS_TALON_KEY_CONFIG_INCLINE_BACK_ARM">
+        <English>Talon: Arm Backward Inclination</English>
+        <Spanish>Talon: Inclinar Brazo Atras</Spanish>
+		<French>Bras d'inclinaison vers l'arrière</French>
+      </Key>
+
+      <Key ID="STR_EODS_TALON_KEY_CONFIG_EXTEND_ARM">
+        <English>Talon: Extend Arm</English>
+        <Spanish>Talon: Extender Brazo</Spanish>
+		<French>Talon: Tendre le bras</French>
+      </Key>
+
+      <Key ID="STR_EODS_TALON_KEY_CONFIG_RETRACT_ARM">
+        <English>Talon: Retract Arm</English>
+        <Spanish>Talon: Retraer Brazo</Spanish>
+		<French>Talon: Rétracter Bras</French>
+      </Key>
+
+      <Key ID="STR_EODS_TALON_KEY_CONFIG_OPEN_HAND">
+        <English>Talon: Open Pincers</English>
+        <Spanish>Talon: Abrir Pinzas</Spanish>
+		<French>Talon: Pinces ouvertes</French>
+      </Key>
+
+      <Key ID="STR_EODS_TALON_KEY_CONFIG_CLOSE_HAND">
+        <English>Talon: Close Pincers</English>
+        <Spanish>Talon: Cerrar Pinzas</Spanish>
+		<French>Talon: Fermer Pinces</French>
+      </Key>
+
+      <Key ID="STR_EODS_PCU_REVELAR">
+        <English>Remove IED from Object</English>
+        <Spanish>Extraer el IED del Objeto</Spanish>
+		<French>Retirer IED de l'objet</French>
+      </Key>
+
+      <Key ID="STR_EODS_PCU_CONTIENE_IED">
+        <English>There is an IED hidden inside the object</English>
+        <Spanish>Hay un IED escondido dentro del objeto</Spanish>
+		<French>Il est un IED caché à l'intérieur de l'objet</French>
+      </Key>
+
+     <Key ID="STR_EODS_PCU_OBJETO_NORMAL">
+        <English>The object seems normal</English>
+        <Spanish>El objeto parece normal</Spanish>
+		<French>L'objet semble normal</French>
+      </Key>
+
+     <Key ID="STR_EODS_PCU_OBJETO_KEY">
+        <English>Interact with IEDs and Objects</English>
+        <Spanish>Interactuar IEDs y Objetos</Spanish>
+		<French>Interagir avec les IEDs et objets</French>
+      </Key>
+
+     <Key ID="STR_EODS_TALON_NO_CONSOLE">
+        <English>You do not have the appropriate console to use the Talon Mark II.</English>
+        <Spanish>Usted no tiene la consola apropiada para utilizar el Talon Mark II.</Spanish>
+		<French>Vous ne disposez pas de la console approprié d'utiliser le Talon Mark II.</French>
+      </Key>
+
+     <Key ID="STR_EODS_TALON_NO_CONSOLE">
+        <English>You do not have the appropriate console to use the Talon Mark II.</English>
+        <Spanish>Usted no tiene la consola apropiada para utilizar el Talon Mark II.</Spanish>
+		<French>Vous ne disposez pas de la console approprié d'utiliser le Talon Mark II.</French>
+      </Key>
+
+     <Key ID="STR_EODS_TALON_CONSOLE_RECOGIDA">
+        <English>The connection is now closed with the Talon Mark II. Remember to picked up the console.</English>
+        <Spanish>La conexión se ha cerrado con el Talon Mark II. Recuerde que debe recoger la consola.</Spanish>
+		<French>La connexion est maintenant terminée avec le Talon Mark II. Rappelez-vous ramassé de la console.</French>
+      </Key>
+
+     <Key ID="STR_EODS_TALON_MENSAJE_SALUDO">
+        <English>Remember that you can incline or extend and open or close the hand of the Talon using the assigned keys. To know how to assign keys, take a look the manual.</English>
+        <Spanish>Recuerde que puede inclinar o extender el brazo y abrir o cerrar la mano del Talon con las teclas asignadas. Para asignar teclas revice el manual.</Spanish>
+	<French>Rappelez-vous que vous pouvez incliner ou étendre et ouvrir ou fermer la main de l'Talon en utilisant les touches assignées. Pour savoir comment assigner les touches, jetez un oeil au manuel.</French>
+      </Key>
+
+</Container></Package></Project>

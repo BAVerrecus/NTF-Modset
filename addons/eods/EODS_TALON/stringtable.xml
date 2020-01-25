@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project name="Arma3">
+<Package name="EODS_ieds_talon">
+<Container name="STR_DN">
+
+	<Key ID="STR_EODS_TALON_CHARGE01_USER_ACTION">
+		<English>&lt;img image='\EODS_ieds\data\logo_addaction.paa' size='1.5' shadow='false'/&gt; | Put Demolition Charge</English>
+		<Spanish>&lt;img image='\EODS_ieds\data\logo_addaction.paa' size='1.5' shadow='false'/&gt; | Colocar carga explosiva</Spanish>
+		<French>&lt;img image='\EODS_ieds\data\logo_addaction.paa' size='1.5' shadow='false'/&gt; | Poser charge de Démolition</French>
+	</Key>
+
+	<Key ID="STR_EODS_TALON_CHARGE02_USER_ACTION">
+		<English>&lt;img image='\EODS_ieds\data\logo_addaction.paa' size='1.5' shadow='false'/&gt; | Put Satchel Charge</English>
+		<Spanish>&lt;img image='\EODS_ieds\data\logo_addaction.paa' size='1.5' shadow='false'/&gt; | Colocar Satchel</Spanish>
+		<French>&lt;img image='\EODS_ieds\data\logo_addaction.paa' size='1.5' shadow='false'/&gt; | Poser une Satchel</French>
+	</Key>
+
+	<Key ID="STR_EODS_TALON_FLIP">
+		<English>&lt;img image='\EODS_ieds\data\logo_addaction.paa' size='1.5' shadow='false'/&gt; | Flip Talon</English>
+		<Spanish>&lt;img image='\EODS_ieds\data\logo_addaction.paa' size='1.5' shadow='false'/&gt; | Voltear Talon</Spanish>
+		<French>&lt;img image='\EODS_ieds\data\logo_addaction.paa' size='1.5' shadow='false'/&gt; | Retourner Talon</French>
+	</Key>
+
+	<Key ID="STR_EODS_TALON_CONSOLE">
+		<English>Talon Mark II Console</English>
+		<Spanish>Talon Mark II Consola</Spanish>
+		<French>Talon Mark II Console</French>
+	</Key>
+
+</Container></Package></Project>

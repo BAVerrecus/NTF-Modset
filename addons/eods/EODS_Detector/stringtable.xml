@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ID="Arma3">
+	<Package ID="EODS_Detector">
+		<Container ID="Base">
+			<Key ID="STR_EODS_MDET_ACTIVATED">
+				<English>
+				&lt;t color="#00CC33"&gt;[&lt;/t&gt;&lt;t color='#FFFF00'&gt;MINE DETECTOR&lt;/t&gt;&lt;t color="#00CC33"&gt;]&lt;/t&gt;&lt;br/&gt;&lt;t color="#00CC33"&gt;ACTIVATED&lt;/t&gt;
+				</English>
+				<French>
+				&lt;t color="#00CC33"&gt;[&lt;/t&gt;&lt;t color='#FFFF00'&gt;DETECTEUR DE MINE&lt;/t&gt;&lt;t color="#00CC33"&gt;]&lt;/t&gt;&lt;br/&gt;&lt;t color="#00CC33"&gt;ACTIVE&lt;/t&gt;
+				</French>
+				<Russian>
+				&lt;t color="#00CC33"&gt;[&lt;/t&gt;&lt;t color='#FFFF00'&gt;МИНОИСКАТЕЛЬ&lt;/t&gt;&lt;t color="#00CC33"&gt;]&lt;/t&gt;&lt;br/&gt;&lt;t color="#00CC33"&gt;АКТИВИРОВАН&lt;/t&gt;
+				</Russian>
+			</Key>
+			<Key ID="STR_EODS_MDET_DEACTIVATED">
+				<English>
+				&lt;t color="#00CC33"&gt;[&lt;/t&gt;&lt;t color='#FFFF00'&gt;MINE DETECTOR&lt;/t&gt;&lt;t color="#00CC33"&gt;]&lt;/t&gt;&lt;br/&gt;&lt;t color='#FF0000'&gt;DEACTIVATED&lt;/t&gt;
+				</English>
+				<French>
+				&lt;t color="#00CC33"&gt;[&lt;/t&gt;&lt;t color='#FFFF00'&gt;DETECTEUR DE MINE&lt;/t&gt;&lt;t color="#00CC33"&gt;]&lt;/t&gt;&lt;br/&gt;&lt;t color='#FF0000'&gt;DESACTIVE&lt;/t&gt;
+				</French>
+				<Russian>
+				&lt;t color="#00CC33"&gt;[&lt;/t&gt;&lt;t color='#FFFF00'&gt;МИНОИСКАТЕЛЬ&lt;/t&gt;&lt;t color="#00CC33"&gt;]&lt;/t&gt;&lt;br/&gt;&lt;t color='#FF0000'&gt;ДЕАКТИВИРОВАН&lt;/t&gt;
+				</Russian>
+			</Key>
+			<Key ID="STR_EODS_MDET_TOGGLE_ON">
+				<English>
+				ENABLE Mine Detector
+				</English>
+				<French>
+				ALLUMER le Detecteur de mine
+				</French>
+				<Russian>
+				ВКЛЮЧИТЬ Миноискатель
+				</Russian>
+			</Key>
+			<Key ID="STR_EODS_MDET_TOGGLE_OFF">
+				<English>
+				DISABLE Mine Detector
+				</English>
+				<French>
+				ETEINDRE le Detecteur de mine
+				</French>
+				<Russian>
+				ОТКЛЮЧИТЬ Миноискатель
+				</Russian>
+			</Key>
+		</Container>
+	</Package>
+</Project>
