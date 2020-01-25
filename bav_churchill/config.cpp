@@ -4,7 +4,7 @@ class CfgPatches
 	{
 		author="7Y Loki";
 		name="7Y Churchill";
-		url="http://7panzerdivision.wordpress.com";
+		url="";
 		requiredAddons[]=
 		{
 			"A3_Armor_F_Beta",
