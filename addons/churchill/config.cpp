@@ -16,6 +16,7 @@ class CfgPatches
 			"A3_Armor_F_Gamma_MBT_01",
 			"A3_Weapons_F",
 			"A3_Data_F",
+			"acre_sys_core",
 			"7Y_churchill"
 		};
 		units[]=
@@ -81,39 +82,7 @@ class CfgVehicles
 	};
 	class churchill_base_F: Tank_F
 	{
-        class AcreIntercoms 
-		{
-            class Intercom_1 
-			{
-                displayName = "Crew intercom";
-                shortName = "Crew";
-                allowedPositions[] = {"crew"};
-                disabledPositions[] = {};
-                limitedPositions[] = {};
-                numLimitedPositions = 1;
-                masterPositions[] = {"gunner"};
-                connectedByDefault = 1;
-            };
-        };
-		acre_hasInfantryPhone = 1; // 1 - enabled, 0 - disabled
-		acre_infantryPhoneDisableRinging = 0;
-//		acre_infantryPhonePosition[] = {-1, 0, 0};
-		acre_infantryPhoneIntercom[] = {"all"};
-        acre_infantryPhoneControlActions[] = {"intercom_1"};
-		acreAttenuation = 0.6;
-         class AcreRacks {
-            class Rack_1 {
-                displayName = Dash; // Name is displayed in the interaction menu.
-                shortName = Dash;
-                componentName = "ACRE_VRC103";
-                allowedPositions[] = {"driver", "commander", "gunner"}; // Who has access "inside" - anyone inside, "external" - provides access upto 10m away, "driver", "gunner", "copilot", "commander"
-                disabledPositions[] = {};
-                defaultComponents[] = {};
-                mountedRadio = "ACRE_PRC77";
-                isRadioRemovable = 0;
-                intercom[] = {"intercom_1"};
-            };
-        };	
+
 class Components
 {
 	class MinimapDisplay
@@ -141,42 +110,5 @@ class Components
 		{
 			"fow_s_uk_crewman"
 		};
-	};
-	class fow_v_m4a2: Tank_F
-	{
-        class AcreIntercoms 
-		{
-            class Intercom_1 
-			{
-                displayName = "Crew intercom";
-                shortName = "Crew";
-                allowedPositions[] = {"crew"};
-                disabledPositions[] = {};
-                limitedPositions[] = {};
-                numLimitedPositions = 1;
-                masterPositions[] = {"commander"};
-                connectedByDefault = 1;
-            };
-        };
-		acre_hasInfantryPhone = 1; // 1 - enabled, 0 - disabled
-		acre_infantryPhoneDisableRinging = 0;
-//        acre_infantryPhonePosition[] = {1.1, 4.86, 1};
-		acre_infantryPhoneIntercom[] = {"all"};
-        acre_infantryPhoneControlActions[] = {"intercom_1"};
-		acreAttenuation = 0.6;
-		
-        class AcreRacks {
-            class Rack_1 {
-                displayName = DASH; // Name is displayed in the interaction menu.
-                shortName = DASH;
-                componentName = "ACRE_VRC103";
-                allowedPositions[] = {"crew"}; // Who has access "inside" - anyone inside, "external" - provides access upto 10m away, "driver", "gunner", "copilot", "commander"
-                disabledPositions[] = {"driver","gunner","commander", [2]};
-                defaultComponents[] = {};
-                mountedRadio = "ACRE_PRC77";
-                isRadioRemovable = 0;
-                intercom[] = {"intercom_1"};
-            };
-        };
 	};
 };
