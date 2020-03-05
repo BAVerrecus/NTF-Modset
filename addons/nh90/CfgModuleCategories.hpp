@@ -1,14 +1,14 @@
 class CfgFactionClasses {
     class NO_CATEGORY;
-    class PROJ_TEMPL: NO_CATEGORY {
-        displayName = "PROJ_TEMPL";
+    class nh90: NO_CATEGORY {
+        displayName = "nh90";
         priority = 2;
         side = 7;
     };
 };
 
 class CfgVehicleClasses {
-    class PROJ_TEMPL_Vehicles {
-        displayName = "PROJ_TEMPL Vehicles";
+    class nh90_Vehicles {
+        displayName = "nh90 Vehicles";
     };
 };

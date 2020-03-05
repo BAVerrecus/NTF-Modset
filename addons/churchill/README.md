@@ -1,4 +1,4 @@
-proj_templ_main
+churchill
 ========
 
 Backbone of other components, defining most of the commonly used macros.

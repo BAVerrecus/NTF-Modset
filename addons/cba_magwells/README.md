@@ -1,4 +1,4 @@
-proj_templ_main
+cba_magwells
 ========
 
 Backbone of other components, defining most of the commonly used macros.

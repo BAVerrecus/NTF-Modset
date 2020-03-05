@@ -1,4 +1,4 @@
-proj_templ_main
+et_pizarro
 ========
 
 Backbone of other components, defining most of the commonly used macros.
